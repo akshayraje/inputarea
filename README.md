@@ -36,3 +36,7 @@ You can define the initial state, i.e. expanded or not by using `initType="input
 ## Demo Code
 
 For a working demo have a look at the [demo files](/demo) or clone this repo and run `npm install` `npm start` then open http://localhost:8080 and follow the instructions.
+
+## Test
+
+Test cases are written using enzyme and asseted via jest. To run tests run `npm test`  
