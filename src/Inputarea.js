@@ -39,6 +39,9 @@ class Inputarea extends Component {
     componentDidUpdate(){
         if(!this.focused && this.nameTextarea){
             this.nameTextarea.focus();
+            let val = this.nameTextarea.value;
+            this.nameTextarea.value = '';
+            this.nameTextarea.value = val;
             this.focused = true;
         }
     }

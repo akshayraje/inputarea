@@ -186,6 +186,9 @@ function (_Component) {
     value: function componentDidUpdate() {
       if (!this.focused && this.nameTextarea) {
         this.nameTextarea.focus();
+        var val = this.nameTextarea.value;
+        this.nameTextarea.value = '';
+        this.nameTextarea.value = val;
         this.focused = true;
       }
     }
