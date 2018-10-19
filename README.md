@@ -33,7 +33,7 @@ To customize it as per your need, you can pass className, style or any other att
 To disable the expand feature add a `disableType` attribute without any value
 You can define the initial state, i.e. expanded or not by using `initType="input"` or `initType="textarea"` attributes.
 
-## Demo Code
+## Demo
 
 For a working demo have a look at the [demo files](/demo) or clone this repo and run `npm install` `npm start` then open http://localhost:8080 and follow the instructions.
 
